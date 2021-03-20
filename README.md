@@ -30,7 +30,9 @@ git clone https://github.com/jaydenaung/cloudguard-onboard-openshift
 
 Alternatively, you can follow the instructions below and execute command lines manually. 
 
-### Python Script (to be added)
+### Python Script (Work in Progress))
+
+You can use the python script [onboard_oc_1.py](onboard_oc_1.py) to onboard or remove an OpenShift cluster to and from CloudGuard.
 
 ---
 
