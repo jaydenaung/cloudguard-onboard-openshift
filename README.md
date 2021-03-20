@@ -17,11 +17,11 @@ This tutorial is details how to onboard Openshift cluster to CloudGuard native u
 git clone https://github.com/jaydenaung/cloudguard-onboard-openshift
 ```
 
-## Using bash shell script to automate the onboarding process (Jayden)
+## Using automation scripts to automate the onboarding process 
 
 ### Bash Shell
 
-1. Make sure that [uid1000.json](uid1000.json) is in the same directory as [onboard-1.sh](onboard-1.sh). 
+1. Make sure that [uid1000.json](uid1000.json) and [cp-cloudguard-openshift.yaml](cp-cloudguard-openshift.yaml) are in the same directory as [onboard-1.sh](onboard-1.sh). 
 2. Edit variables and run [onboard-1.sh](onboard-1.sh) to onboard the cluster. 
 
 ``` chmod +x onboard-1.sh
