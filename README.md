@@ -14,7 +14,7 @@ This tutorial is details how to onboard Openshift cluster to CloudGuard native u
 
 ### Run the following command:
 ```
-git clone https://github.com/jaydenaung/cloudguard-OpenShift
+git clone https://github.com/jaydenaung/cloudguard-onboard-openshift
 ```
 
 ## Using bash shell script to automate the onboarding process (Jayden)
