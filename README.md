@@ -34,6 +34,28 @@ Alternatively, you can follow the instructions below and execute command lines m
 
 You can use the python script [onboard_oc_1.py](onboard_oc_1.py) to onboard or remove an OpenShift cluster to and from CloudGuard.
 
+```bash 
+# Install requirements
+pip3 install -r requirements.txt
+# Execute script
+python3 onboard_oc_1.py onboard
+
+```
+
+For cluster onboarding you will need to provide:
+
+1. Your Cluster Name (e.g. my_cluster)
+2. Namespace (e.g. checkpoint)
+3. CloudGuard API Key (you can export environment variable CHKP_CLOUDGUARD_ID and script will detect it)
+4. CloudGUard API Secret (you can export environment variable CHKP_CLOUDGUARD_SECRET and script will detect it)
+
+
+For cluster removal you will need to provide:
+
+1. The path to the yaml file that was generated during onboarding. The script will try to find a yaml file in the current directory.
+2. CloudGuard API Key (Alternatively, can export environment variable CHKP_CLOUDGUARD_ID and the script will detect it)
+3. CloudGUard API Secret (you can also export environment. variable CHKP_CLOUDGUARD_SECRET and the script will detect it.)
+
 ---
 
 ## Verififcation 
