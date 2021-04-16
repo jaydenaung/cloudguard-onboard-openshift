@@ -6,7 +6,7 @@
 cluster_name="mycluster"
 
 # namespace for CloudGuard (default is checkpoint) 
-namespace="checkpoint"
+myns="checkpoint"
 
 # Your CloudGuard API Key and Secret
 CHKP_CLOUDGUARD_API="your-cloudguard-api"
@@ -40,7 +40,7 @@ oc create serviceaccount cp-resource-management --namespace $myns
 echo Service Account "${myns}" has been created. 
 
 #Create Admin User. Make sure uid1000.json is in the same directory.
-oc create -f uid1000.json --as system:admin
+oc create -f UID1000.json --as system:admin
 
 # Policy Add User
 oc adm policy add-scc-to-user uid1000 -z cp-resource-management --as system:admin
