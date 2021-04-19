@@ -15,7 +15,7 @@
     ],
     "runAsUser": {
         "type": "MustRunAs",
-        "uid": "1000"
+        "uid": 1000
     },
     "seLinuxContext": {
         "type": "MustRunAs"
